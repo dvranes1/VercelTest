@@ -1,5 +1,5 @@
 import { Hono } from 'hono'
-import { usersRouter } from './user/user.controller'
+import { usersRouter } from './user/user.controller.ts'
 
 const app = new Hono()
 

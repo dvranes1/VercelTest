@@ -4,7 +4,7 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "start": "bun api/index.ts",
+    "start": "bun src/index.ts",
     "dpl": "git add . && git commit -m \"auto\" && git push"
   },
   "devDependencies": {

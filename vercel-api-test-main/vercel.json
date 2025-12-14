@@ -1,7 +1,9 @@
 {
+  "version": 2,
   "installCommand": "bun install",
-  "buildCommand": null,
   "functions": {
-    "api/**/*.{ts,js}": { "runtime": "bun@latest" }
+    "api/**/*.{ts,js}": {
+      "runtime": "bun@latest"
+    }
   }
 }
