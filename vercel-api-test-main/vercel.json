@@ -1,5 +1,5 @@
 {
-  "version": "now@2.0.0",
+  "version": "now@3.0.0",
   "functions": {
     "api/**/*.{js}": {
       "runtime": "nodejs20.x"
