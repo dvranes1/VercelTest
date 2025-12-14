@@ -1,15 +1,15 @@
 # vercel-test
 
-To install dependencies:
+Node.js + Hono demo for Vercel API routes.
+
+Install dependencies:
 
 ```bash
-bun install
+npm install
 ```
 
-To run:
+Run locally with the Vercel dev server:
 
 ```bash
-bun run index.ts
+npm run dev
 ```
-
-This project was created using `bun init` in bun v1.2.10. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
