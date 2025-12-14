@@ -11,17 +11,17 @@ router.get('/', async ctx => {
     const users: User[] = await userService.getAllUsers()
     return ctx.json(users)
   } catch (error) {
-    handleError(ctx, error)
+    return handleError(ctx, error)
   }
 })
 
 router.post('/', async ctx => {
   try {
     const payload = await ctx.req.json()
-    const newUser = userService.addUser(payload as User)
+    const newUser = await userService.addUser(payload as User)
     return ctx.json(newUser, 201)
   } catch (error) {
-    handleError(ctx, error)
+    return handleError(ctx, error)
   }
 })
 
